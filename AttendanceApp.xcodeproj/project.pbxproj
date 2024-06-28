@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D59F1722C2D9C4B00F574B5 /* AttendanceAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59F1712C2D9C4B00F574B5 /* AttendanceAppApp.swift */; };
+		2D59F1742C2D9C4B00F574B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59F1732C2D9C4B00F574B5 /* ContentView.swift */; };
+		2D59F1762C2D9C5200F574B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D59F1752C2D9C5200F574B5 /* Assets.xcassets */; };
+		2D59F1792C2D9C5200F574B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D59F1782C2D9C5200F574B5 /* Preview Assets.xcassets */; };
+		2D59F17B2C2D9C5200F574B5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59F17A2C2D9C5200F574B5 /* Persistence.swift */; };
+		2D59F17E2C2D9C5200F574B5 /* AttendanceApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D59F17C2C2D9C5200F574B5 /* AttendanceApp.xcdatamodeld */; };
+		2D59F1882C2D9C5300F574B5 /* AttendanceAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59F1872C2D9C5300F574B5 /* AttendanceAppTests.swift */; };
+		2D59F1922C2D9C5400F574B5 /* AttendanceAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59F1912C2D9C5400F574B5 /* AttendanceAppUITests.swift */; };
+		2D59F1942C2D9C5400F574B5 /* AttendanceAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59F1932C2D9C5400F574B5 /* AttendanceAppUITestsLaunchTests.swift */; };
+		2D59F1A22C2D9F5500F574B5 /* AttendanceRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59F1A12C2D9F5500F574B5 /* AttendanceRecordView.swift */; };
+		2D59F1A42C2D9F7A00F574B5 /* MemberListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59F1A32C2D9F7A00F574B5 /* MemberListView.swift */; };
+		2D59F1A62C2D9F9000F574B5 /* MemberDetailPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59F1A52C2D9F9000F574B5 /* MemberDetailPageView.swift */; };
+		2D59F1A82C2D9FBA00F574B5 /* CsvExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59F1A72C2D9FBA00F574B5 /* CsvExportView.swift */; };
+		2D59F1AB2C2DA00700F574B5 /* AttendanceRecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59F1AA2C2DA00700F574B5 /* AttendanceRecordViewModel.swift */; };
+		2D59F1AD2C2DA02400F574B5 /* MemberDetailPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59F1AC2C2DA02400F574B5 /* MemberDetailPageViewModel.swift */; };
+		2D59F1AF2C2DA03600F574B5 /* CsvExportViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59F1AE2C2DA03600F574B5 /* CsvExportViewModel.swift */; };
+		2D59F1B12C2DA04C00F574B5 /* MemberListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59F1B02C2DA04C00F574B5 /* MemberListViewModel.swift */; };
+		2D59F1B42C2DA08800F574B5 /* AttendanceRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59F1B32C2DA08800F574B5 /* AttendanceRecord.swift */; };
+		2D59F1B62C2DA09B00F574B5 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59F1B52C2DA09B00F574B5 /* Member.swift */; };
+		2D59F1B82C2DA0AD00F574B5 /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59F1B72C2DA0AD00F574B5 /* Payment.swift */; };
+		2D59F1BB2C2DA0F500F574B5 /* AttendanceRecordService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59F1BA2C2DA0F500F574B5 /* AttendanceRecordService.swift */; };
+		2D59F1BD2C2DA10800F574B5 /* MemberService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59F1BC2C2DA10800F574B5 /* MemberService.swift */; };
+		2D59F1BF2C2DA11A00F574B5 /* PaymentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59F1BE2C2DA11A00F574B5 /* PaymentService.swift */; };
+		2D59F1C22C2DA14500F574B5 /* DataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59F1C12C2DA14500F574B5 /* DataHelper.swift */; };
+		2D59F1C42C2DA15500F574B5 /* FileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59F1C32C2DA15500F574B5 /* FileHelper.swift */; };
+		2D59F1C62C2DA20E00F574B5 /* Scenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59F1C52C2DA20E00F574B5 /* Scenes.swift */; };
+		7EB4DF7A2C2E7BD800DF28BA /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7EB4DF792C2E7BD800DF28BA /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D59F1842C2D9C5300F574B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D59F1662C2D9C4B00F574B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D59F16D2C2D9C4B00F574B5;
+			remoteInfo = AttendanceApp;
+		};
+		2D59F18E2C2D9C5400F574B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D59F1662C2D9C4B00F574B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D59F16D2C2D9C4B00F574B5;
+			remoteInfo = AttendanceApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D59F16E2C2D9C4B00F574B5 /* AttendanceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AttendanceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D59F1712C2D9C4B00F574B5 /* AttendanceAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceAppApp.swift; sourceTree = "<group>"; };
+		2D59F1732C2D9C4B00F574B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2D59F1752C2D9C5200F574B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D59F1782C2D9C5200F574B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D59F17A2C2D9C5200F574B5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		2D59F17D2C2D9C5200F574B5 /* AttendanceApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AttendanceApp.xcdatamodel; sourceTree = "<group>"; };
+		2D59F1832C2D9C5300F574B5 /* AttendanceAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttendanceAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D59F1872C2D9C5300F574B5 /* AttendanceAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceAppTests.swift; sourceTree = "<group>"; };
+		2D59F18D2C2D9C5400F574B5 /* AttendanceAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttendanceAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D59F1912C2D9C5400F574B5 /* AttendanceAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceAppUITests.swift; sourceTree = "<group>"; };
+		2D59F1932C2D9C5400F574B5 /* AttendanceAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2D59F1A12C2D9F5500F574B5 /* AttendanceRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceRecordView.swift; sourceTree = "<group>"; };
+		2D59F1A32C2D9F7A00F574B5 /* MemberListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberListView.swift; sourceTree = "<group>"; };
+		2D59F1A52C2D9F9000F574B5 /* MemberDetailPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberDetailPageView.swift; sourceTree = "<group>"; };
+		2D59F1A72C2D9FBA00F574B5 /* CsvExportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CsvExportView.swift; sourceTree = "<group>"; };
+		2D59F1AA2C2DA00700F574B5 /* AttendanceRecordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceRecordViewModel.swift; sourceTree = "<group>"; };
+		2D59F1AC2C2DA02400F574B5 /* MemberDetailPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberDetailPageViewModel.swift; sourceTree = "<group>"; };
+		2D59F1AE2C2DA03600F574B5 /* CsvExportViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CsvExportViewModel.swift; sourceTree = "<group>"; };
+		2D59F1B02C2DA04C00F574B5 /* MemberListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberListViewModel.swift; sourceTree = "<group>"; };
+		2D59F1B32C2DA08800F574B5 /* AttendanceRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceRecord.swift; sourceTree = "<group>"; };
+		2D59F1B52C2DA09B00F574B5 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		2D59F1B72C2DA0AD00F574B5 /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
+		2D59F1BA2C2DA0F500F574B5 /* AttendanceRecordService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceRecordService.swift; sourceTree = "<group>"; };
+		2D59F1BC2C2DA10800F574B5 /* MemberService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberService.swift; sourceTree = "<group>"; };
+		2D59F1BE2C2DA11A00F574B5 /* PaymentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentService.swift; sourceTree = "<group>"; };
+		2D59F1C12C2DA14500F574B5 /* DataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHelper.swift; sourceTree = "<group>"; };
+		2D59F1C32C2DA15500F574B5 /* FileHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileHelper.swift; sourceTree = "<group>"; };
+		2D59F1C52C2DA20E00F574B5 /* Scenes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scenes.swift; sourceTree = "<group>"; };
+		7EB4DF792C2E7BD800DF28BA /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		7EB4DF7B2C2E7C8500DF28BA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D59F16B2C2D9C4B00F574B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D59F1802C2D9C5300F574B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D59F18A2C2D9C5300F574B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D59F1652C2D9C4B00F574B5 = {
+			isa = PBXGroup;
+			children = (
+				7EB4DF792C2E7BD800DF28BA /* .gitignore */,
+				7EB4DF7B2C2E7C8500DF28BA /* README.md */,
+				2D59F1702C2D9C4B00F574B5 /* AttendanceApp */,
+				2D59F1862C2D9C5300F574B5 /* AttendanceAppTests */,
+				2D59F1902C2D9C5400F574B5 /* AttendanceAppUITests */,
+				2D59F16F2C2D9C4B00F574B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D59F16F2C2D9C4B00F574B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D59F16E2C2D9C4B00F574B5 /* AttendanceApp.app */,
+				2D59F1832C2D9C5300F574B5 /* AttendanceAppTests.xctest */,
+				2D59F18D2C2D9C5400F574B5 /* AttendanceAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D59F1702C2D9C4B00F574B5 /* AttendanceApp */ = {
+			isa = PBXGroup;
+			children = (
+				2D59F1712C2D9C4B00F574B5 /* AttendanceAppApp.swift */,
+				2D59F1A02C2D9ED600F574B5 /* App */,
+				2D59F1752C2D9C5200F574B5 /* Assets.xcassets */,
+				2D59F17A2C2D9C5200F574B5 /* Persistence.swift */,
+				2D59F17C2C2D9C5200F574B5 /* AttendanceApp.xcdatamodeld */,
+				2D59F1772C2D9C5200F574B5 /* Preview Content */,
+			);
+			path = AttendanceApp;
+			sourceTree = "<group>";
+		};
+		2D59F1772C2D9C5200F574B5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2D59F1782C2D9C5200F574B5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2D59F1862C2D9C5300F574B5 /* AttendanceAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D59F1872C2D9C5300F574B5 /* AttendanceAppTests.swift */,
+			);
+			path = AttendanceAppTests;
+			sourceTree = "<group>";
+		};
+		2D59F1902C2D9C5400F574B5 /* AttendanceAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D59F1912C2D9C5400F574B5 /* AttendanceAppUITests.swift */,
+				2D59F1932C2D9C5400F574B5 /* AttendanceAppUITestsLaunchTests.swift */,
+			);
+			path = AttendanceAppUITests;
+			sourceTree = "<group>";
+		};
+		2D59F1A02C2D9ED600F574B5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2D59F1732C2D9C4B00F574B5 /* ContentView.swift */,
+				2D59F1A12C2D9F5500F574B5 /* AttendanceRecordView.swift */,
+				2D59F1A32C2D9F7A00F574B5 /* MemberListView.swift */,
+				2D59F1A52C2D9F9000F574B5 /* MemberDetailPageView.swift */,
+				2D59F1A72C2D9FBA00F574B5 /* CsvExportView.swift */,
+				2D59F1B22C2DA05200F574B5 /* Models */,
+				2D59F1A92C2D9FD000F574B5 /* ViewModels */,
+				2D59F1B92C2DA0C700F574B5 /* Services */,
+				2D59F1C02C2DA12700F574B5 /* Util */,
+				2D59F1C52C2DA20E00F574B5 /* Scenes.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2D59F1A92C2D9FD000F574B5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2D59F1AA2C2DA00700F574B5 /* AttendanceRecordViewModel.swift */,
+				2D59F1AC2C2DA02400F574B5 /* MemberDetailPageViewModel.swift */,
+				2D59F1AE2C2DA03600F574B5 /* CsvExportViewModel.swift */,
+				2D59F1B02C2DA04C00F574B5 /* MemberListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2D59F1B22C2DA05200F574B5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2D59F1B32C2DA08800F574B5 /* AttendanceRecord.swift */,
+				2D59F1B52C2DA09B00F574B5 /* Member.swift */,
+				2D59F1B72C2DA0AD00F574B5 /* Payment.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2D59F1B92C2DA0C700F574B5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2D59F1BA2C2DA0F500F574B5 /* AttendanceRecordService.swift */,
+				2D59F1BC2C2DA10800F574B5 /* MemberService.swift */,
+				2D59F1BE2C2DA11A00F574B5 /* PaymentService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2D59F1C02C2DA12700F574B5 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				2D59F1C12C2DA14500F574B5 /* DataHelper.swift */,
+				2D59F1C32C2DA15500F574B5 /* FileHelper.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D59F16D2C2D9C4B00F574B5 /* AttendanceApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D59F1972C2D9C5400F574B5 /* Build configuration list for PBXNativeTarget "AttendanceApp" */;
+			buildPhases = (
+				2D59F16A2C2D9C4B00F574B5 /* Sources */,
+				2D59F16B2C2D9C4B00F574B5 /* Frameworks */,
+				2D59F16C2C2D9C4B00F574B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AttendanceApp;
+			productName = AttendanceApp;
+			productReference = 2D59F16E2C2D9C4B00F574B5 /* AttendanceApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D59F1822C2D9C5300F574B5 /* AttendanceAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D59F19A2C2D9C5400F574B5 /* Build configuration list for PBXNativeTarget "AttendanceAppTests" */;
+			buildPhases = (
+				2D59F17F2C2D9C5300F574B5 /* Sources */,
+				2D59F1802C2D9C5300F574B5 /* Frameworks */,
+				2D59F1812C2D9C5300F574B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D59F1852C2D9C5300F574B5 /* PBXTargetDependency */,
+			);
+			name = AttendanceAppTests;
+			productName = AttendanceAppTests;
+			productReference = 2D59F1832C2D9C5300F574B5 /* AttendanceAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D59F18C2C2D9C5300F574B5 /* AttendanceAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D59F19D2C2D9C5400F574B5 /* Build configuration list for PBXNativeTarget "AttendanceAppUITests" */;
+			buildPhases = (
+				2D59F1892C2D9C5300F574B5 /* Sources */,
+				2D59F18A2C2D9C5300F574B5 /* Frameworks */,
+				2D59F18B2C2D9C5300F574B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D59F18F2C2D9C5400F574B5 /* PBXTargetDependency */,
+			);
+			name = AttendanceAppUITests;
+			productName = AttendanceAppUITests;
+			productReference = 2D59F18D2C2D9C5400F574B5 /* AttendanceAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D59F1662C2D9C4B00F574B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					2D59F16D2C2D9C4B00F574B5 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					2D59F1822C2D9C5300F574B5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 2D59F16D2C2D9C4B00F574B5;
+					};
+					2D59F18C2C2D9C5300F574B5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 2D59F16D2C2D9C4B00F574B5;
+					};
+				};
+			};
+			buildConfigurationList = 2D59F1692C2D9C4B00F574B5 /* Build configuration list for PBXProject "AttendanceApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D59F1652C2D9C4B00F574B5;
+			productRefGroup = 2D59F16F2C2D9C4B00F574B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D59F16D2C2D9C4B00F574B5 /* AttendanceApp */,
+				2D59F1822C2D9C5300F574B5 /* AttendanceAppTests */,
+				2D59F18C2C2D9C5300F574B5 /* AttendanceAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D59F16C2C2D9C4B00F574B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D59F1792C2D9C5200F574B5 /* Preview Assets.xcassets in Resources */,
+				7EB4DF7A2C2E7BD800DF28BA /* .gitignore in Resources */,
+				2D59F1762C2D9C5200F574B5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D59F1812C2D9C5300F574B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D59F18B2C2D9C5300F574B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D59F16A2C2D9C4B00F574B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D59F1B12C2DA04C00F574B5 /* MemberListViewModel.swift in Sources */,
+				2D59F1A42C2D9F7A00F574B5 /* MemberListView.swift in Sources */,
+				2D59F1C22C2DA14500F574B5 /* DataHelper.swift in Sources */,
+				2D59F1A22C2D9F5500F574B5 /* AttendanceRecordView.swift in Sources */,
+				2D59F1A62C2D9F9000F574B5 /* MemberDetailPageView.swift in Sources */,
+				2D59F1B82C2DA0AD00F574B5 /* Payment.swift in Sources */,
+				2D59F1AB2C2DA00700F574B5 /* AttendanceRecordViewModel.swift in Sources */,
+				2D59F1B62C2DA09B00F574B5 /* Member.swift in Sources */,
+				2D59F1AF2C2DA03600F574B5 /* CsvExportViewModel.swift in Sources */,
+				2D59F17B2C2D9C5200F574B5 /* Persistence.swift in Sources */,
+				2D59F1BD2C2DA10800F574B5 /* MemberService.swift in Sources */,
+				2D59F1742C2D9C4B00F574B5 /* ContentView.swift in Sources */,
+				2D59F1AD2C2DA02400F574B5 /* MemberDetailPageViewModel.swift in Sources */,
+				2D59F17E2C2D9C5200F574B5 /* AttendanceApp.xcdatamodeld in Sources */,
+				2D59F1C62C2DA20E00F574B5 /* Scenes.swift in Sources */,
+				2D59F1722C2D9C4B00F574B5 /* AttendanceAppApp.swift in Sources */,
+				2D59F1B42C2DA08800F574B5 /* AttendanceRecord.swift in Sources */,
+				2D59F1A82C2D9FBA00F574B5 /* CsvExportView.swift in Sources */,
+				2D59F1BF2C2DA11A00F574B5 /* PaymentService.swift in Sources */,
+				2D59F1BB2C2DA0F500F574B5 /* AttendanceRecordService.swift in Sources */,
+				2D59F1C42C2DA15500F574B5 /* FileHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D59F17F2C2D9C5300F574B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D59F1882C2D9C5300F574B5 /* AttendanceAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D59F1892C2D9C5300F574B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D59F1922C2D9C5400F574B5 /* AttendanceAppUITests.swift in Sources */,
+				2D59F1942C2D9C5400F574B5 /* AttendanceAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D59F1852C2D9C5300F574B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D59F16D2C2D9C4B00F574B5 /* AttendanceApp */;
+			targetProxy = 2D59F1842C2D9C5300F574B5 /* PBXContainerItemProxy */;
+		};
+		2D59F18F2C2D9C5400F574B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D59F16D2C2D9C4B00F574B5 /* AttendanceApp */;
+			targetProxy = 2D59F18E2C2D9C5400F574B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D59F1952C2D9C5400F574B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D59F1962C2D9C5400F574B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D59F1982C2D9C5400F574B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AttendanceApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 7XCQ4MW7YV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Futawatari.AttendanceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D59F1992C2D9C5400F574B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AttendanceApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 7XCQ4MW7YV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Futawatari.AttendanceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D59F19B2C2D9C5400F574B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7XCQ4MW7YV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Futawatari.AttendanceAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AttendanceApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AttendanceApp";
+			};
+			name = Debug;
+		};
+		2D59F19C2C2D9C5400F574B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7XCQ4MW7YV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Futawatari.AttendanceAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AttendanceApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AttendanceApp";
+			};
+			name = Release;
+		};
+		2D59F19E2C2D9C5400F574B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7XCQ4MW7YV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Futawatari.AttendanceAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AttendanceApp;
+			};
+			name = Debug;
+		};
+		2D59F19F2C2D9C5400F574B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7XCQ4MW7YV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Futawatari.AttendanceAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AttendanceApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D59F1692C2D9C4B00F574B5 /* Build configuration list for PBXProject "AttendanceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D59F1952C2D9C5400F574B5 /* Debug */,
+				2D59F1962C2D9C5400F574B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D59F1972C2D9C5400F574B5 /* Build configuration list for PBXNativeTarget "AttendanceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D59F1982C2D9C5400F574B5 /* Debug */,
+				2D59F1992C2D9C5400F574B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D59F19A2C2D9C5400F574B5 /* Build configuration list for PBXNativeTarget "AttendanceAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D59F19B2C2D9C5400F574B5 /* Debug */,
+				2D59F19C2C2D9C5400F574B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D59F19D2C2D9C5400F574B5 /* Build configuration list for PBXNativeTarget "AttendanceAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D59F19E2C2D9C5400F574B5 /* Debug */,
+				2D59F19F2C2D9C5400F574B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2D59F17C2C2D9C5200F574B5 /* AttendanceApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2D59F17D2C2D9C5200F574B5 /* AttendanceApp.xcdatamodel */,
+			);
+			currentVersion = 2D59F17D2C2D9C5200F574B5 /* AttendanceApp.xcdatamodel */;
+			path = AttendanceApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2D59F1662C2D9C4B00F574B5 /* Project object */;
+}

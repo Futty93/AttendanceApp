@@ -1,8 +1,9 @@
-#  <#Title#>
+#  Attendance Management App
 
 
 File Structure
 
+```
 AttendanceApp/
 ├── App/
 │   ├── ContentView.swift // アプリのトップ画面
@@ -31,3 +32,4 @@ AttendanceApp/
 ├── Info.plist // アプリケーション情報
 ├── Package.swift // プロジェクト設定
 └── Resources/ // その他のリソース
+```
